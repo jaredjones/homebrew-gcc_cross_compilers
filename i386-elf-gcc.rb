@@ -6,6 +6,7 @@ class I386ElfGcc < Formula
   mirror 'http://ftp.gnu.org/gnu/gcc/gcc-4.8.0/gcc-4.8.0.tar.bz2'
   sha1 'b4ee6e9bdebc65223f95067d0cc1a634b59dad72'
 
+  depends_on 'i386-elf-binutils'
   depends_on 'gmp'
   depends_on 'libmpc'
   depends_on 'mpfr'
