@@ -9,7 +9,6 @@ class I386ElfGcc < Formula
   depends_on 'gmp'
   depends_on 'libmpc'
   depends_on 'mpfr'
-  depends_on 'i386-elf-binutils'
 
   def install
     binutils = Formula.factory 'i386-elf-binutils'
